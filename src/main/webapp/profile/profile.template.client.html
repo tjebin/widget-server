@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./profile.style.client.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <div class="col-6">
+            <h1 class="color-red">
+                Profile
+            </h1>
+        </div>
+        <div class="col-6 pt-3">
+            <a href="../index.html" class="float-right">
+                Cancel
+            </a>
+        </div>
+    </div>
+    <div>
+
+        <div class="alert alert-success" role="alert">
+            Profile successfully saved
+        </div>
+
+        <div class="form-group row">
+            <label for="username" class="col-sm-1 col-from-label">
+                Username
+            </label>
+
+            <div class="col-sm-11">
+                <input class="form-control"
+                       id="username"
+                       value="Super Man" readonly>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="phone" class="col-sm-1 col-from-label">
+                Phone
+            </label>
+            <div class="col-sm-11">
+                <input type="tel" class="form-control"
+                       id="phone" placeholder="123-123-1234">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="email" class="col-sm-1 col-from-label">
+                Email
+            </label>
+            <div class="col-sm-11">
+                <input type="email" class="form-control"
+                       id="email" placeholder="xyz@yahoo.com">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="roleFld" class="col-sm-1 col-from-label">
+                Role
+            </label>
+            <div class="col-sm-11">
+
+                <select class="custom-select form-control" id="roleFld">
+                    <option selected>Student</option>
+                    <option>Faculty</option>
+                    <option>Admin</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="dobFld" class="col-sm-1 col-from-label">
+                Date Of Birth
+            </label>
+            <div class="col-sm-11">
+                <input type="date" class="form-control"
+                       id="dobFld" placeholder="mm/dd/yyyy">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-from-label"></label>
+            <div class="col-sm-11">
+                <button class="btn btn-primary btn-block webdav-login color-green">
+                    Update
+                </button>
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-from-label"></label>
+            <div class="col-sm-11">
+                <button onclick="location.href = '../index.html';"
+                        type="button" class="btn btn-primary btn-block webdav-login
+                        color-background-tomato">
+                    Logout
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

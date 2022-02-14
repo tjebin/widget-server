@@ -1,0 +1,45 @@
+.color-me-tomato {
+  color: tomato;
+}
+
+.color-me-red {
+  color: red;
+}
+
+.wbdv-sticky-top {
+    position: fixed;
+    width: 100%;
+    height: 53px;
+    background-color: white;
+    z-index: 1;
+}
+
+.wbdv-padding-5px {
+    padding: 7px;
+}
+
+.add-padding-left {
+    padding-left: 60px;
+}
+
+.table-attr-font {
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-bar-top {
+    border-top: 1px solid hsl(0, 0%, 92%);
+
+}
+
+.nav-bar-bottom {
+    border-bottom: 1px solid hsl(0, 0%, 92%);
+}
+
+.nav-bar-right {
+    border-right: 1px solid hsl(0, 0%, 92%);
+}
+
+.nav-bar-left {
+    border-left: 1px solid hsl(0, 0%, 92%);
+}
